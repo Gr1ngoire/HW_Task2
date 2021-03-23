@@ -148,6 +148,18 @@
                             <constraint firstItem="iFw-4V-ZUI" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="rxJ-Ik-y0P"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="inputBlue" destination="d9I-nm-0Va" id="fkk-cx-PXO"/>
+                        <outlet property="inputGreen" destination="Z4W-CC-1ru" id="vYh-IH-vul"/>
+                        <outlet property="inputRed" destination="5CA-zt-eZA" id="9Zx-bC-iZH"/>
+                        <outlet property="labelBlue" destination="Vo8-4a-z74" id="x57-2U-yTY"/>
+                        <outlet property="labelGreen" destination="GaQ-HR-lCP" id="A8D-Fo-jem"/>
+                        <outlet property="labelRed" destination="Lwa-ma-ae0" id="wos-EN-197"/>
+                        <outlet property="resultView" destination="2rk-Rf-eeZ" id="0eK-2g-6kE"/>
+                        <outlet property="sliderBlue" destination="auk-st-Onq" id="bOm-K0-1xE"/>
+                        <outlet property="sliderGreen" destination="ncD-Pt-oIC" id="uKD-bx-iGw"/>
+                        <outlet property="sliderRed" destination="Hde-1t-UUk" id="o7p-JW-lgr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
