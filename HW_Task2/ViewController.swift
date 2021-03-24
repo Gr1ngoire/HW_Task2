@@ -27,7 +27,9 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-//        resultView.layer.cornerRadius = 
+        
+        resultView.layer.cornerRadius = resultView.frame.width / 40
+        
     }
 
 
